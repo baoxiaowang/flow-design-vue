@@ -1,18 +1,38 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <FlowDesign
+      style="height: 100%"
+      ref="flowDesign"
+      @nodeClick="nodeClick"
+      :explainList="explainList"
+      :propNodeData="processTree"
+    />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import FlowDesign from "src/components/flow-design/index.vue";
+import { processTree } from "src/mock/index";
 export default {
+  data() {
+    return {
+      loading: false,
+      explainList: [],
+      processTree: processTree
+    };
+  },
   name: "Home",
   components: {
-    HelloWorld
+    FlowDesign
+  },
+  methods: {
+    nodeClick() {}
   }
 };
 </script>
+<style lang="scss">
+.home {
+  height: 100%;
+}
+</style>
