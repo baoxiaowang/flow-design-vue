@@ -30,4 +30,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-![./images/C7C39127-26A1-4CA7-A30E-DC8FB7007863.png]()
+![./images/C7C39127-26A1-4CA7-A30E-DC8FB7007863.png](/Users/baoxuwang/Documents/flow-design-vue/flow-design-vue/images/C7C39127-26A1-4CA7-A30E-DC8FB7007863.png)
