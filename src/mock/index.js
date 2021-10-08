@@ -24,7 +24,7 @@ export const processTree = {
     opinionFlag: 0,
     commitText: "提交",
     backNodeList: [],
-    name: "流程开始节点",
+    name: "流程开始节点wxb",
     prevId: "0",
     fieldPermission: "",
     ccUser: "[]",
@@ -50,7 +50,7 @@ export const processTree = {
     x: 0,
     y: 50
   },
-  name: "流程开始节点",
+  name: "流程开始节点wxb",
   nodeId: "startNode",
   prevId: "0",
   type: 1
